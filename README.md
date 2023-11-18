@@ -57,6 +57,9 @@ plt.figure(figsize=(15, 10))
 sns.heatmap(bs_airbnb.corr(), annot=True, cmap='magma')
 plt.show()
 ```
+
+<img src="heatmap.png"/>
+
 ### Geolocalização
 - Exploramos a geolocalização das hospedagens através de um mapa de densidade de preços usando a biblioteca Plotly Express.
 ```python
@@ -66,6 +69,9 @@ fig = px.density_mapbox(amostra, lat='latitude', lon='longitude', z='price', rad
                         center=mapa_centro, zoom=10, mapbox_style='open-street-map')
 fig.show()
 ```
+
+<img src="mapa_interativo_airbnb.png"/>
+
 ### Modelagem Preditiva
 - Preparamos os dados para modelagem, codificando variáveis categóricas, e treinamos modelos de Regressão Linear, Random Forest e Extra Trees para prever os preços das hospedagens.
 ```python
