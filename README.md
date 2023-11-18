@@ -42,6 +42,8 @@ print(bs_airbnb.describe())
 sns.pairplot(bs_airbnb[['price', 'accommodates', 'bathrooms', 'bedrooms', 'beds']])
 plt.show()
 ```
+<img src="outlier.png"/>
+
 ### Transformação de Dados
 - Convertemos valores monetários para formato numérico e tratamos variáveis categóricas.
 ```python
