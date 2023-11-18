@@ -23,6 +23,7 @@ for arquivo in path_bs.iterdir():
     df['mes'] = mes
     bs_airbnb = bs_airbnb.append(df)
 ```
+<img src="bs_airbnb data.png"/>
 
 ### Remover colunas com muitos valores nulos
 ```python
