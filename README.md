@@ -2,6 +2,8 @@
 ## Visão Geral
 Este projeto tem como objetivo realizar uma análise aprofundada dos dados do Airbnb, aplicando técnicas de pré-processamento, análise exploratória e modelagem preditiva para estimar os preços de hospedagens. Utilizando bibliotecas Python como Pandas, Seaborn, Matplotlib e Scikit-Learn, este trabalho visa fornecer insights valiosos para stakeholders do setor de hospedagem.
 
+<img src="_354e323e-9e10-4f69-acd1-bdabcf5a8f2c.jpeg"/>
+
 ## Estrutura do Projeto
 ### Pré-processamento dos Dados
 - Consolidamos dados de diversos arquivos CSV em um DataFrame único, incorporando informações temporais.
